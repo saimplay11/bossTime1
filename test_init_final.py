@@ -614,7 +614,7 @@ async def on_message(msg):
 		##################################
 
 		for i in range(bossNum):
-			if message.content.startswith(bossData[i][0] +'컷' || bossData[i][0] +' 컷'):
+			if message.content.startswith(bossData[i][0] +'컷'):
 				tmp_msg = bossData[i][0] +'컷'
 				if len(hello) > len(tmp_msg) + 3 :
 					if hello.find(':') != -1 :
